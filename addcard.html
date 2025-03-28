@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+<link rel="stylesheet" href="assets/css/addcart.css">
+</head>
+
+<body>
+    <div class="cart-container">
+        <h2>CART</h2>
+
+        <div class="cart-box" data-price="180">
+            <img src="assets/img/candlesnew1.jpg" alt="Tulsi Soap">
+            <div class="cart-details">
+                <p>Natural Soap: Orange Extracted</p>
+                <p>₹ <span class="price">180</span></p>
+            </div>
+            <div class="quantity">
+                <button class="decrease">-</button>
+                <input type="text" value="1" class="qty">
+                <button class="increase">+</button>
+            </div>
+            <p>₹ <span class="total">180</span></p>
+        </div>
+
+        <div class="cart-box" data-price="420">
+            <img src="assets/img/candlesnew1.jpg" alt="Tulsi Soap">
+            <div class="cart-details">
+                <p>Badam Infused Soap</p>
+                <p>₹ <span class="price">420</span></p>
+            </div>
+            <div class="quantity">
+                <button class="decrease">-</button>
+                <input type="text" value="1" class="qty">
+                <button class="increase">+</button>
+            </div>
+            <p>₹ <span class="total">420</span></p>
+        </div>
+
+        <div class="subtotal">
+            <strong>Sub Total:</strong> ₹ <span id="subtotal">600</span>
+        </div>
+
+        <button class="checkout">CHECK OUT</button>
+    </div>
+    <script src="assets/js/addscript.js"></script>
+</body>
+
+</html>

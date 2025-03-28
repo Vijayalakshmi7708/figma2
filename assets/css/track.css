@@ -1,0 +1,133 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf7f4;
+      margin: 20px;
+  }
+
+  .orders-container {
+      max-width: 500px;
+      margin: auto;
+  }
+
+.orderoverall{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: green;
+        padding: 20px;
+        width: 700px;
+        margin-left: 400px;
+        
+}
+.imgall{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+                border: 1px solid #ddd;
+                    background: white;
+                    padding: 15px;
+                    margin-bottom: 10px;
+                    border-radius: 8px;
+                    width: 700px;
+                    margin-left: 400px;
+}
+.imgall img{
+    width: 50px;
+    height: 50px;
+}
+ 
+
+ .orderoveralls {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+
+ }
+
+ .imgalll {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     border: 1px solid #ddd;
+     background: white;
+     padding: 15px;
+     margin-bottom: 10px;
+     border-radius: 8px;
+    width: 700px;
+    margin-left: 400px;
+ }
+
+ .imgalll img {
+     width: 50px;
+     height: 50px;
+ }
+ span{
+    color: orangered;
+ }
+ @media (max-width: 1024px) {
+
+     .orderoverall,
+     .imgall,
+     .imgalll {
+         width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .orderoverall {
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+         width: 100%;
+         padding: 10px;
+     }
+
+     .imgall,
+     .imgalll {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         width: 90%;
+         padding: 10px;
+         text-align: center;
+     }
+
+     .imgall div,
+     .imgalll div {
+         font-size: 14px;
+     }
+
+     .imgall img,
+     .imgalll img {
+         width: 60px;
+         height: 60px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     body {
+         margin: 10px;
+     }
+
+     .orderoverall {
+         font-size: 16px;
+         padding: 5px;
+     }
+
+     .imgall,
+     .imgalll {
+         grid-template-columns: 1fr;
+         gap: 10px;
+         padding: 10px;
+     }
+
+     .imgall img,
+     .imgalll img {
+         width: 50px;
+         height: 50px;
+     }
+
+     span {
+         font-size: 14px;
+     }
+ }

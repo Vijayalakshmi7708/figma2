@@ -1,0 +1,87 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdf5f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('spa-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+    color: #005f3c;
+    font-style: italic;
+}
+
+.input-group {
+    margin: 10px 0;
+    position: relative;
+}
+
+.input-group input {
+    width: 60%;
+    padding: 10px;
+    padding-left: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.login-options a {
+    text-decoration: none;
+    color: #005f3c;
+}
+
+.sign-in-btn {
+    background: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register  {
+    color: #005f3c;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.register a {
+    color: #005f3c;
+    text-decoration: none;
+    font-weight: bold;
+
+}
